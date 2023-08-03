@@ -1,0 +1,28 @@
+from datetime import datetime
+
+now = datetime.now()
+year = str(now.year)
+mont = str(now.month)
+day = str(now.day) 
+
+if(len(mont) == 1): mont = '0'+ mont
+if(len(day) == 1): day = '0'+ day
+
+dollar_price = None
+try:
+    import requests
+    url = 'https://trm-colombia.vercel.app/?date='+year+'-'+mont+'-'+day
+    print()
+
+    r = requests.get(url)
+    data = r.json()
+    dollar_price = float(data['data']['value'])
+    print('Precio del dolar hoy: ',dollar_price)
+except:
+    print("Error. No se pudo establecer coneccion con el servidor")
+    print()
+    dollar_price = float(input('Ingrese manualmente el precio del dolar: '))
+
+amount_dollar = int(input('Ingrese la cantidad de dolares que quiere cambiar hoy: '))
+print('Recibiras',(dollar_price*amount_dollar),'pesos')
+
