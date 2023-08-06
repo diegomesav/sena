@@ -1,7 +1,7 @@
 from datetime import datetime
-from datetime import timedelta
-from dateutil.relativedelta import relativedelta
-"""
+#from datetime import timedelta
+#from dateutil.relativedelta import relativedelta
+
 agno = ''
 
 while agno == '':
@@ -20,22 +20,13 @@ elif agno % 400 != 0:
 else:
     print('Es bisiesto')
 
-fechaCadena = "2020-04-22 00:00:00"
-ahora = datetime.strptime(fechaCadena, '%Y-%m-%d %H:%M:%S')"""
 
+agno = int(input("Ingresa el año en que naciste:  "))
+mes = int(input("Ingresa el mes en que naciste:  "))
+dia = int(input("Ingresa el dia en que naciste:  "))
 
-fechaCadena = "2020-04-22"
-ahora = datetime.strptime(fechaCadena, '%Y-%m-%d')
-print(ahora.year, ahora.month, ahora.day, sep='-')
+fecha_nacimiento = datetime(agno, mes, dia) 
+fecha_actual = datetime.now()
+edad = fecha_actual.year - fecha_nacimiento.year - ((fecha_actual.month, fecha_actual.day) < (fecha_nacimiento.month, fecha_nacimiento.day))
 
-dentro_de_un_mes = ahora + relativedelta(months=-1)
-print("Dentro de un mes: " + str(dentro_de_un_mes))
-
-
-dentro_de_anio_y_semana = ahora + relativedelta(years=1, weeks=1)
-print("Dentro de un año y una semana: " + str(dentro_de_anio_y_semana.year))
-
-# Sumar pero con negativos, obteniendo una resta
-
-hace_dos_anios = ahora + relativedelta(years=-2,months=-1)
-print("Hace dos años: " + str(hace_dos_anios))
+print(f"La edad es: {edad} años")
