@@ -1,5 +1,22 @@
 import requests
 from datetime import datetime
+# 1--------------------------------------------------------------------------
+"""
+distanciaTotal = 42.195
+#Tiempo transcurrido: 2 horas y 25 minutos
+tiempoMin = (2*60) + 25
+promedioMin = distanciaTotal / tiempoMin
+minKilomtro = round((1 / promedioMin),1)
+
+print(f"El atleta completo la carrera a una velocida de {promedioMin} Km por minuto \n Es decir que tardaba {minKilomtro} minutos para recorrer un Km")
+"""
+
+# 2-------------------------------------------------------------------
+
+"""
+gradosC = float(input('Por favor ingrese la cantidad de grados °C que desea convertir a grados °F:  '))
+print(gradosC,'grados °C son el equivalente a',((gradosC)*(9/5) +32), 'grados °F')
+"""
 
 # 3---------------------------------------------------------
 """
@@ -46,11 +63,15 @@ for i in nums:
 
 # 6-------------------------------------------------------------
 
+"""
+#Para este ejercicio por favor instalar request
+#  API para obtener el precio actual del dolar
+
 now = datetime.now()
 year = str(now.year)
 mont = str(now.month)
 day = str(now.day) 
-
+#  validacion para crear el formato de la consulta al API
 if(len(mont) == 1): mont = '0'+ mont
 if(len(day) == 1): day = '0'+ day
 
@@ -67,6 +88,58 @@ for i in range(5):
     precios.append(precio)
 
 print(f'El total en pesos de las camisetas es:  {sum(precios) * dollar_price}')
+
+"""
+
+# 7--------------------------------------------------------------------------
+
+"""
+pagosClientes = {}
+otroCliente = 's'
+
+while otroCliente.lower().startswith('s'):
+    nombreCliente = input('Ingresa el nombre del cliente:  ')
+    pagoCliente = int(input('Total consumo:  '))
+    #se aplica el 20% si le venta es mayor a 50000
+    if pagoCliente > 50000: 
+        pagoCliente -= (round(pagoCliente * 0.2))
+    print(f'Total a pagar:  {pagoCliente}')
+    pagosClientes[nombreCliente] = pagoCliente
+    otroCliente = input('Hay alguien mas en la lista? (s/n):  ')
+print()
+
+print('Las ventas de hoy fueron las siguentes: ')
+totalVentas = 0
+for cliente in pagosClientes.items():
+    print(f'{cliente[0]} \t: {cliente[1]}')
+    totalVentas += cliente[1]
+print(f'Hoy se vendieron {totalVentas} pesos.')
+"""
+
+# 8---------------------------------------------------------------------
+"""
+import time
+while True:
+    result = time.strftime("%H : %M : %S %p")
+    print(result)
+    time.sleep(1)
+
+"""
+
+# 9----------------------------------------------------------------------
+"""
+factorial = int(input('Ingresa el factorial que deseas obtener:  '))
+resFact = 1
+for num in range(1,(factorial+1)):
+    resFact *= num
+print(f'El factorial de {factorial} es {resFact}')
+"""
+
+# 10--------------------------------------------------------------------
+
+tabla = int(input('Ingresa el numero de la tabla que quieres ver:  '))
+for i in range(10,0,-1):
+    print(f'{tabla} X {i} = {tabla * i}')
 
 
 
