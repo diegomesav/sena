@@ -1,5 +1,9 @@
 function opcion (){
-    return parseInt(prompt(''))
+    return parseInt(prompt(`Seleccione el numero de la figura que desea consultar:
+    1. Triangulo
+    2. Rectangulo
+    3. cuadrado
+    4. Circulo`))
 }
 
 function areaPerimetro () {
@@ -11,14 +15,14 @@ function areaTriangulo(){
     let base = parseFloat(prompt('Ingrese la base:  '))
     let altura =parseFloat(prompt('Ingrese la altura:  '))
     //document.body.innerHTML = "<h1>Time right now is:  " + d.getHours() + ":" + d.getMinutes() + ":" + d.getSeconds() + "</h1>"
-    prompt(`El area de ese triangulo es: ${(base*altura)}`)
+    alert(`El area de ese triangulo es: ${(base*altura)}`)
 }
 
 function perimetroTriangulo(){
     let lado1 = parseFloat(prompt('Ingrese el lado 1:  '))
     let lado2 = parseFloat(prompt('Ingrese el lado 2: '))
     let lado3 = parseFloat(prompt('Ingrese el lado 3:  '))
-    prompt(`El perimetro de ese triangulo es: ${lado1 + lado2 + lado3}`)
+    alert(`El perimetro de ese triangulo es: ${lado1 + lado2 + lado3}`)
 }
 
 function areaRectangulo(){
@@ -27,54 +31,64 @@ function areaRectangulo(){
     alert(`El area de ese rectangulo es:${Math.round(base*altura)}`)
 }
 
-function perimetroRectangulo():
+function perimetroRectangulo(){
     let base = parseFloat(prompt('Ingrese la base:  '))
     let altura =parseFloat(prompt('Ingrese la altura:  '))
-    print(f'El perimetro de ese rectangulo es: {round(2*(base + altura))}')
+    alert(`El perimetro de ese rectangulo es: ${Math.round(2*(base + altura))}`)
+}
 
-function areaCuadrado():
+function areaCuadrado(){
     let lado = parseFloat(prompt('Ingrese la medida de un lado:  '))
-    print(lado**2)
+    alert(Math.pow(lado,2))
+}
 
-function perimetroCuadrado():
+function perimetroCuadrado(){
     let lado = parseFloat(prompt('Ingrese la medida de un lado:  '))
-    print(lado**2)
+    alert(lado * 4)
+}
 
-function areaCirculo():
-    import math
+function areaCirculo(){
     let radio = parseFloat(prompt('Ingrese la medida del radio:  '))
-    print(f'El area de ese circulo es:  {round(math.pi * (radio **2 ),2)}')
+    alert(`El area de ese circulo es:  ${Math.round(Math.PI * (Math.pow(radio,2)))}`)
+}
 
-function perimetroCirculo():
-    import math
+
+function perimetroCirculo(){
     let radio = parseFloat(prompt('Ingrese la medida del radio:  '))
-    print(f'El perimetro de ese circulo es:  {round((math.pi * radio * 2),2) }')
-
-print("""
-Seleccione el numero de la figura que desea consultar:
-1. Triangulo
-2. Rectangulo
-3. cuadrado
-4. Circulo""")
+    alert(`El perimetro de ese circulo es:  ${Math.round((Math.PI * radio * 2)) }`)
+}
 
 opcion = opcion()
 
-if areaPerimetro() == 'a':
-    if opcion == 1:
-        areaTriangulo()
-    elif opcion == 2:
-        areaRectangulo()
-    elif opcion == 3:
-        areaCuadrado()
-    elif opcion == 4:
-        areaCirculo() 
-
-else:
-    if opcion == 1:
-        perimetroTriangulo()
-    elif opcion == 2:
-        perimetroRectangulo()
-    elif opcion == 3:
-        perimetroCuadrado()
-    elif opcion == 4:
-        perimetroCirculo() 
+if (areaPerimetro() == 'a'){
+    switch(opcion){
+        case 1:
+            areaTriangulo()
+            break
+        case 2:
+            areaRectangulo()
+            break
+        case 3:
+            areaCuadrado()
+            break
+        case 4:
+            areaCirculo()
+            break 
+    }
+}
+else{
+    switch(opcion){
+        case 1:
+            perimetroTriangulo()
+            break
+        case 2:
+            perimetroRectangulo()
+            break
+        case 3:
+            perimetroCuadrado()
+            break
+        case 4:
+            perimetroCirculo()
+            break 
+    }
+}
