@@ -1,0 +1,96 @@
+cleanmgr
+%temp%
+prefetch
+https://bit.ly/3mzq2uB
+
+
+- %temp%
+
+- temp
+
+- prefetch
+
+- eventvwr
+
+- %SystemRoot%\System32\Cmd.exe /c Cleanmgr /sageset:65535 &Cleanmgr /sagerun:6553
+
+mvn spring-boot:run
+facturaap = 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
+git push https://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git@github.com/diegomesav/Prep-Course.git
+
+https://www.youtube.com/watch?v=tOC6fjLdkO4
+
+visualgo.net
+
+https://es.savefrom.net/1-youtube-video-downloader-178.html
+
+extensiones visual studio code: GitHub Copilot - Tabnine - Black Box
+
+funcion calculo algoritmos: https://www.geogebra.org/calculator/phwg6sp3
+calculadora de logaritmos: https://www.geogebra.org/calculator/phwg6sp3
+Acciones de algoritmos de ordenamiento: https://www.toptal.com/developers/sorting-algorithms
+
+api key googleMaps: AIzaSyAaDcKbMAKrMcRHz9Yqlt1eWjGIJXL-0Yc
+clave de api2 : AIzaSyC9X_nQY8gSAKT0q29dyIMN8A4yninjgdA
+api key tutorial : AIzaSyCBB1QCvbNfT6I0GJ5oCmW4AU4aumgdF8g
+cumpleaños : https://www.youtube.com/watch?v=wPQj5VwG9XY
+
+Videos maps:
+https://www.youtube.com/watch?v=4whIXVv4XMQ
+        
+
+DiegoMe59373052
+
+https://docs.google.com/document/d/1ChdxlmFza1wpRIc5G7JARhSJQIrETJaB/edit
+
+ID Cliente google ads: 143-354-1450
+com.google.android.gms.permission.AD_ID
+
+https://stackoverflow.com/questions/54510465/finished-with-error-gradle-task-assembledebug-failed-with-exit-code-1
+
+dsnft.sena.edu.co
+
+fotocopia de la cedudal
+certificado laboral
+
+https://dsnft.sena.edu.co/Candidatos/servlet/com.senaws.wpregistro?XECpS6kWyFf8nTv9VaKhqtXIN2HMut1bgvh_bw4vObc=
+
+https://platzi.com/tutoriales/1502-dart/6139-instalar-y-configurar-dart-en-visual-studio-code-para-windows/
+
+tokenGit : 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
+
+duplicado de documentos:
+licencia: https://vus.circulemosdigital.com.co/#/login
+
+
+https://www6.cuevana3.ch/14041/mortal-kombat-2021
+
+https://historico.cnsc.gov.co/index.php/dian-2022-avisos-informativos
+
+cronograma sena: https://docs.google.com/spreadsheets/d/1t8MUEdzxJvc2dYUQmJTBwiQpYW88iAx5/edit#gid=585826616
+
+https://www11.cuevana3.ch/19207/super-mario-bros-la-pelicula
+
+2069535642
+
+https://www11.cuevana3.ch/19417/fast-x
+
+exportar en premiere...https://www.youtube.com/watch?v=ch6X37YgABA
+
+listado de  los que faltan por cobrar subsidio ingreso solidario wintorabc2023
+32309108
+exp 11\06\75
+guille.verde26@gmail.com
+CC Juan: 1216716315
+
+https://www.honeygain.com/download/ :   https://www.dz-techs.com/es/earn-passive-income-using-internet-connection 
+
+python profe sena: https://drive.google.com/drive/folders/1DI8YrbcyRlROe2mYwQ8tNdZUJxuOIHpr
+
+Código en Powershell: iwr -useb https://christitus.com/win | iex
+
+https://www.freelancer.com/
+
+ http://www.google.com/ig/api?weather=Madrid
+
+apikey meteum: 00eeec88-6d76-410c-9d81-85b846e7834c
