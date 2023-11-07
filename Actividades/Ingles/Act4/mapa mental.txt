@@ -1,0 +1,39 @@
+entorno personal de aprendizaje
+
+profesores: 
+explican las actividades
+	reselven dudas
+	dan ejemplos
+	animan a continuar
+
+Plataforma:
+	Se cargan las actividades
+	Hay matrial de formación
+	Guia para consultar actividades
+
+Grupos de trabajo:
+	Nos unimos varios compañeros
+	Retroalimentamos las actividades desarrolladas
+	Compartimos dudas
+	observamos diferentes soluciones
+
+Flexibilidad de horarios:
+	Trabajo asincrónico
+	posibilidad de repetir las clases
+	Motivación genuina
+	Fomento de la responsabilidad
+	
+Herramientas:
+	Office:
+		excel
+		Word
+		Power Point
+	Internet:
+		Github
+		Youtube
+		Google
+		lucidchart
+
+		
+
+	
