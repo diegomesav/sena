@@ -100,7 +100,17 @@ DISNEY
 GARANTIA: latamj7@netlatamda.com star123plus
 Perfil 1
 
+<<<<<<< HEAD
 hoja de vida html: https://preview.themeforest.net/item/material-cv-resume-vcard/full_screen_preview/13703959
 
 contrasena ligtroom: www.descarga.xyz
 link ligt room: https://mega.nz/file/cv5mkSKT#8bmwwEY8yMNmXwb8W8ew7zy72sSjmokZ8XIE8JNspT8
+=======
+<<<<<<< HEAD
+clave rar photoshop: diseñoscreativos.com
+link photoshop: https://drive.google.com/file/d/1x5q9P00okwk_c_n5qyTHFB2PPl4LVMG3/view
+=======
+hoja de vida html: https://preview.themeforest.net/item/material-cv-resume-vcard/full_screen_preview/13703959
+>>>>>>> dad96953ae46196f7f7bc5347e791d720f36594e
+
+>>>>>>> 3ff70639cf6268aed37275b4c63aff1aadc7742d
