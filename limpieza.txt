@@ -100,5 +100,10 @@ DISNEY
 GARANTIA: latamj7@netlatamda.com star123plus
 Perfil 1
 
+<<<<<<< HEAD
 clave rar photoshop: diseñoscreativos.com
 link photoshop: https://drive.google.com/file/d/1x5q9P00okwk_c_n5qyTHFB2PPl4LVMG3/view
+=======
+hoja de vida html: https://preview.themeforest.net/item/material-cv-resume-vcard/full_screen_preview/13703959
+>>>>>>> dad96953ae46196f7f7bc5347e791d720f36594e
+
