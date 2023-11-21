@@ -1,0 +1,245 @@
+function openNav() {
+    // $("#myLowbar").css("height","100%");
+    $(".myLowbardesk").css("height","100%");
+    $(".myLowbarmovil").css("height","100%");
+}
+
+function closeNav() {
+    // $("#myLowbar").css("height","0px");
+    $(".myLowbardesk").css("height","0px");
+    $(".myLowbarmovil").css("height","0px");
+}
+
+function openboxfiltros() {
+    $(".cuadro-filtros").css("height","100%");
+}
+
+function closeopenboxfiltros() {
+    $(".cuadro-filtros").css("height","0px");
+}
+
+function openFilters() {
+    $(".filter-title").hide( 30 );
+    $(".filter-contents").css("height","auto");
+    $(".filter-contents").css("overflow","visible");
+}
+
+function closeFilters() {
+    $(".filter-title").show( 300 );
+    $(".filter-contents").css("height","0");
+    $(".filter-contents").css("overflow","hidden");
+}
+function codigo() {
+    $(".inner-form-filter-codigo").toggle();
+    $(".inner-form-filter-data").toggle();
+    $(".codigo-movil").toggleClass( "codigo-movil-on" );
+}
+
+// $("#id_bussines_type option").click(function(){
+//     console.log("hola");
+// });
+
+$(document).ready(function() {
+    $( "select option:selected" ).addClass("seleccionselect");
+    
+    $( "select" ).change(function() {
+      $( "select option:selected" ).addClass("seleccionselect");
+    });   
+
+    $(".select-id_bussines_type").prepend('<option></option>').select2({
+        placeholder: "Propósito",
+        dropdownParent: $('.bussines_type')
+    });
+
+    $(".select-id-sector").prepend('<option></option>').select2({
+        placeholder: "Sector",
+        dropdownParent: $('.sector_type')
+    });
+
+    $(".select-alcobas ").prepend('<option></option>').select2({
+        placeholder: "Habitaciones",
+        dropdownParent: $('.select-alcobas_type')
+    });
+
+    $(".select-banios ").prepend('<option></option>').select2({
+        placeholder: "Baños",
+        dropdownParent: $('.select-banios_type')
+    });
+
+    $(".select-garaje ").prepend('<option></option>').select2({
+        placeholder: "Parqueadero",
+        dropdownParent: $('.select-garaje_type')
+    });
+
+    $(".select-real-estate-type").prepend('<option></option>').select2({
+        placeholder: "Tipo de Inmueble",
+        dropdownParent: $('.real_estate_type'),
+    });
+
+    $(".select-real_estate_type ").prepend('<option></option>').select2({
+        placeholder: "Presupuesto",
+        dropdownParent: $('.id_precio_type')
+    });
+
+});
+// $(document).ready(function() {
+//     $(".select-real-estate-type").prepend('<option selected></option>').select2({
+//         placeholder: "Tipo de Inmueble",
+//         dropdownParent: $('.real_estate_type')
+//     });
+// });
+// $(document).ready(function() {
+//     $(".select-real-estate-type-movil").prepend('<option selected></option>').select2({
+//         placeholder: "Inmueble",
+//         dropdownParent: $('.real_estate_type_movil')
+//     });
+// });
+
+$(document).ready(function(){
+    
+    
+    $(".detail-estate-view-page .page-banner-title .pre-tour .play-pause").click(function(){
+        if ($(".detail-estate-view-page .page-banner-title .pre-tour").hasClass('pause')){
+            $(".detail-estate-view-page .page-banner-title .pre-tour").removeClass('pause');
+        } else {
+            $(".detail-estate-view-page .page-banner-title .pre-tour").addClass('pause');
+        }
+    })
+
+    $('.pre-footer .go-to-top-pre .arrow-up').click(function(){
+        $("html, body").animate({ scrollTop: 0 }, "slow");
+    })
+
+    $("#myLowbar .main-menu-list ul.nav li").hover(function(){
+        $(this).prepend('<span class="arrow-right"></span>');
+    })
+
+    $( "#myLowbar .main-menu-list ul.nav li" ).mouseout(function() {
+        $(this).find(".arrow-right").remove();
+    });
+    /*
+    $( ".form-control-range" ).change(function(){
+        var label = $(this).parent().find("label").text();
+        if (label.includes("Area") ){
+            $(this).parent().find("label").html("Area: "+$.number($(this).val(), ',' )+"m<sup>2</sup>");
+        }else{
+            $(this).parent().find("label").html("Precio: $"+$.number($(this).val(), '.' ));
+        }
+    });
+    */
+    $(".input-number .minus-btn").on('click', function(){
+        $($(this).attr('data-target'))[0].stepDown();
+    });
+
+    $(".input-number .plus-btn").on('click', function(){
+        $($(this).attr('data-target'))[0].stepUp();
+    });
+
+    // $( "select" ).change(function() {
+    //     var str = "";
+    //     $( "select option:selected" ).each(function() {
+    //     str += $( this ).text() + " ";
+    //     });
+    //     $( "#sectornom" ).text( str );
+    // })
+    // .trigger( "change" );
+    $(".custom-select").each(function() {
+            var classes = $(this).attr("class"),
+                id      = $(this).attr("id"),
+                name    = $(this).attr("name");
+            var template =  '<div class="' + classes + '">';
+                template += '<span class="custom-select-trigger">' + $(this).attr("placeholder") + '</span>';
+                template += '<div class="custom-options">';
+                $(this).find("option").each(function() {
+                template += '<span class="custom-option ' + $(this).attr("class") + '" data-value="' + $(this).attr("value") + '">' + $(this).html() + '</span>';
+                });
+            template += '</div></div>';
+            
+            $(this).wrap('<div class="custom-select-wrapper"></div>');
+            $(this).hide();
+            $(this).after(template);
+        });
+        $(".custom-option:first-of-type").hover(function() {
+            $(this).parents(".custom-options").addClass("option-hover");
+        }, function() {
+            $(this).parents(".custom-options").removeClass("option-hover");
+        });
+        $(".custom-select-trigger").on("click", function() {
+            $('html').one('click',function() {
+            $(".custom-select").removeClass("opened");
+            });
+            $(this).parents(".custom-select").toggleClass("opened");
+            event.stopPropagation();
+        });
+        $(".custom-option").on("click", function() {
+            $(this).parents(".custom-select-wrapper").find("select").val($(this).data("value"));
+            $(this).parents(".custom-options").find(".custom-option").removeClass("selection");
+            $(this).addClass("selection");
+            $(this).parents(".custom-select").removeClass("opened");
+            $(this).parents(".custom-select").find(".custom-select-trigger").text($(this).text());
+            $(this).parents(".custom-select").find(".custom-select-trigger").addClass("active-seled");
+    });
+
+    $(".custom-select-trigger-presupuesto").on("click", function() {
+        $('html').one('click',function() {
+            $(".custom-select-presupuesto").removeClass("opened");
+        });
+        $(this).parents(".custom-select-presupuesto").toggleClass("opened");
+        event.stopPropagation();
+    });
+    $(".custom-options-presupuesto").on("click", function() {
+        $(this).parents(".custom-select-presupuesto").addClass("opened");
+        event.stopPropagation();
+    });
+    // $( function() {
+    //     $( "#slider" ).slider();
+    //   } );
+
+
+    $( function() {
+        const formatterPeso = new Intl.NumberFormat('es-CO', {
+            style: 'currency',
+            currency: 'COP',
+            minimumFractionDigits: 0
+        })
+
+        var bla = $('#id_max').val();
+        if (typeof(bla) == "undefined"){
+            var bla = 5000000
+        }
+        // console.log(bla);
+        // $( "#amountmas" ).val( formatterPeso.format(bla ));
+
+        $( "#slider-range" ).slider({
+            
+            
+            range: true,
+            min: 0,
+            max: 5000000,
+            values: [ 0, bla],
+            slide: function( event, ui ) {
+
+                $( "#id_min" ).val(   ui.values[ 0 ]);
+                $( "#id_max" ).val(   ui.values[ 1 ] );
+                $( "#id_min_price" ).val( ui.values[ 0 ]);
+                $( "#id_max_price" ).val( ui.values[ 1 ] );
+
+                $( "#amountmenos" ).val( formatterPeso.format(ui.values[ 0 ]));
+                $( "#amountmas" ).val( formatterPeso.format(ui.values[ 1 ] ));
+            }
+        });
+
+        $( "#amountmenos" ).val(  "$" + $( "#slider-range" ).slider( "values", 0 ) );
+        $( "#amountmas" ).val(  "$" + $( "#slider-range" ).slider( "values", 1) ); 
+        $( "#id_min_price" ).val(  $( "#slider-range" ).slider( "values", 0 ) );
+        $( "#id_max_price" ).val(  $( "#slider-range" ).slider( "values", 1 ) ); 
+    })
+
+    $(".enviar-submit").on('click', function(){
+        if (!$('#terms').is(':checked'))
+        {
+            alert('Por favor acepte las Política de Tratamiento de Datos');
+            return false;
+        }
+    });
+});
