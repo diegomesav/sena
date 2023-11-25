@@ -1,0 +1,75 @@
+Propuesta de Investigación Formativa: Exploración y Evaluación de Lenguajes de Programación mediante el Método Científico
+
+Introducción:
+
+En el dinámico campo de la informática, la selección del lenguaje de programación adecuado es esencial para el éxito de los proyectos de desarrollo de software. Esta propuesta de investigación formativa busca explorar y evaluar de manera sistemática diversos lenguajes de programación utilizando el método científico como marco metodológico.
+
+Contexto y Justificación:
+
+El aumento constante en la diversidad de lenguajes de programación ha generado la necesidad de una evaluación objetiva y comparativa para informar decisiones informadas en el desarrollo de software. La elección de un lenguaje de programación puede impactar en la productividad, el rendimiento y la mantenibilidad del software, entre otros aspectos. Este estudio busca proporcionar una guía práctica basada en evidencia para los desarrolladores y profesionales de la informática.
+
+Objetivos de la Investigación:
+
+Identificar y Caracterizar Lenguajes:
+
+Describir y analizar las características clave de diversos lenguajes de programación, incluyendo sintaxis, paradigmas de programación y características especiales.
+Evaluar Rendimiento y Eficiencia:
+
+Realizar pruebas de rendimiento comparativas para evaluar la eficiencia de los lenguajes en diferentes contextos y escenarios de desarrollo.
+Analizar Paradigmas de Programación:
+
+Explorar y comparar los paradigmas de programación facilitados por cada lenguaje, destacando fortalezas y debilidades.
+Revisar Herramientas y Librerías:
+
+Investigar y evaluar las herramientas y librerías disponibles para cada lenguaje, considerando su impacto en la productividad y la calidad del software.
+Examinar la Comunidad y Soporte:
+
+Analizar la vitalidad de la comunidad de desarrolladores de cada lenguaje y la disponibilidad de recursos de aprendizaje y soporte en línea.
+Considerar Factores de Aprendizaje:
+
+Evaluar la curva de aprendizaje asociada con cada lenguaje, considerando la facilidad de adopción para diferentes niveles de experiencia.
+Metodología:
+
+Revisión Bibliográfica:
+
+Llevar a cabo una revisión exhaustiva de la literatura existente sobre los lenguajes de programación seleccionados y las métricas relevantes para su evaluación.
+Diseño Experimental:
+
+Diseñar experimentos controlados para evaluar el rendimiento y la eficiencia de los lenguajes en situaciones específicas.
+Encuestas y Entrevistas:
+
+Recopilar datos cualitativos mediante encuestas y entrevistas con desarrolladores experimentados para obtener percepciones subjetivas.
+Análisis Estadístico:
+
+Aplicar análisis estadístico a los datos recopilados para identificar patrones significativos y correlaciones entre variables.
+Desarrollo de Casos de Estudio:
+
+Implementar casos de estudio prácticos para evaluar el desempeño de los lenguajes en proyectos del mundo real.
+Referencias Bibliográficas:
+
+Sebesta, R. W. (2018). "Concepts of Programming Languages." Pearson.
+
+Louden, K. C. (2017). "Programming Languages: Principles and Practices." Cengage Learning.
+
+Pratt, T. W., & Zelkowitz, M. V. (2006). "Programming Languages: Design and Implementation." Pearson.
+
+Myers, G. J. (2011). "The Art of Software Testing." John Wiley & Sons.
+
+Brooks, F. P. (1995). "The Mythical Man-Month: Essays on Software Engineering." Addison-Wesley.
+
+Resultados Esperados:
+
+Una comparativa integral de lenguajes de programación basada en evidencia.
+
+Recomendaciones claras para la selección de lenguajes en diferentes contextos.
+
+Contribución al conocimiento en el ámbito de la selección de lenguajes de programación.
+
+Conclusiones:
+
+Este estudio tiene el potencial de proporcionar información valiosa para la comunidad de desarrollo de software, facilitando decisiones informadas sobre la selección de lenguajes de programación. La aplicación rigurosa del método científico garantizará la validez y confiabilidad de los resultados, contribuyendo así al avance del conocimiento en este campo crucial de la informática.
+
+
+
+
+

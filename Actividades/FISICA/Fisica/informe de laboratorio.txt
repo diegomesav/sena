@@ -1,0 +1,67 @@
+Energía Cinética (Ec):
+La energía cinética es proporcional a la mitad de la masa del cuerpo, multiplicada por el cuadrado de la velocidad de movimiento.
+Fórmula matemática: Ec = (½)m * V2
+
+Energía Potencial Gravitatoria:
+Tenemos la posibilidad de conocer la energía potencial gravitatoria de un cuerpo aplicando esta ecuación si conocemos la masa del cuerpo, el valor de la aceleración de la gravedad y la altura desde la que caería el cuerpo en cuestión.
+Fórmula matemática: Ep = m·g·h
+
+Energía Potencial Elástica:
+Es la energía almacenada como resultado de aplicar una fuerza para deformar un objeto elástico . La energía se almacena hasta que se elimina la fuerza y ​​el objeto vuelve a su forma original, realizando trabajo en el proceso. La deformación podría implicar comprimir, estirar o torcer el objeto
+ 
+Energía Térmica (Calor):
+refiere a la energía contenida en un sistema que es responsable de su temperatura. Una rama de la física, la termodinámica, estudia cómo el calor se transfiere entre diferentes sistemas y cómo se realiza un trabajo en el proceso (ve la primera ley de la termodinámica
+Q=mCΔT
+
+Energía Química:
+ es el nombre con el que se conoce al potencial de una sustancia química para experimentar una transformación a través de una reacción química. La energía química puede liberarse durante una reacción química, a menudo en forma de calor. Tales reacciones se denominan exotérmicas.
+Energía Nuclear:
+
+Parámetro: Masa de los núcleos atómicos.
+Variable: Energía liberada en una reacción nuclear.
+Energía Eléctrica:
+
+Parámetro: Voltaje (V), Corriente (I), Resistencia (R), Tiempo (t).
+Variable: 
+�
+=
+�
+�
+P=IV, 
+�
+=
+�
+�
+E=Pt
+Energía Luminosa:
+
+Parámetro: Longitud de onda, Intensidad de la luz.
+Variable: Depende del contexto, como la iluminación en una superficie.
+Energía Sonora:
+
+Parámetro: Amplitud, Frecuencia.
+Variable: Intensidad del sonido, energía transportada por ondas sonoras.
+Energía Hidroeléctrica:
+
+Parámetro: Altura de la caída de agua, Flujo de agua.
+Variable: 
+�
+ℎ
+�
+�
+�
+�
+=
+�
+⋅
+�
+⋅
+�
+⋅
+ℎ
+E 
+hidro
+​
+ =η⋅m⋅g⋅h, donde 
+�
+η es la eficiencia del sistema.
