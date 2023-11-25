@@ -15,53 +15,29 @@ Q=mCΔT
 
 Energía Química:
  es el nombre con el que se conoce al potencial de una sustancia química para experimentar una transformación a través de una reacción química. La energía química puede liberarse durante una reacción química, a menudo en forma de calor. Tales reacciones se denominan exotérmicas.
+P = V · I Según la ley de Ohm: V = I R. P = potencia expresada en vatios (W). t = tiempo en segundos. V = voltaje en voltios (V).
+
 Energía Nuclear:
-
-Parámetro: Masa de los núcleos atómicos.
+La energía nuclear es la energía que se libera como consecuencia de la reacción que se produce cuando se dividen los núcleos atómicos pesados. Ésta es también denominada Fisión Nuclear.
+Como resultado de este proceso se generan grandes cantidades de calor que son aprovechadas para producir vapor a presión, lo que permite obtener energía mecánica para poner en funcionamiento generadores de energía eléctrica.
+La energía nuclear tiene la ventaja de producir un bajo impacto ambiental, lo que la convierte en una fuente sustentable, ya que produce ínfimas cantidades de gases que provocan el llamado efecto invernadero.
+El uranio es uno de los combustibles que permiten que se lleve a cabo este proceso, y es también el más utilizado en la mayoría de los reactores nucleares, por ser uno de los minerales más abundantes en la naturaleza.
+La energía nuclear no es sólo el resultado de un proceso físico-químico, sino que constituye una de las formas de desarrollo científico-tecnológico más avanzadas, ya que además de producir energía eléctrica, contribuye con el avance de otras disciplinas y ciencias como la ingeniería, la metalurgia, la siderurgia, la mecánica y la medicina, entre otras, impactando favorablemente en el desarrollo de los sectores de salud, agrícola e industrial.
 Variable: Energía liberada en una reacción nuclear.
+E = mc 2
+
 Energía Eléctrica:
+es un tipo de energía que consiste en el movimiento de los electrones entre dos puntos cuando existe una diferencia de potencial entre ellos, lo cual permite generar la llamada corriente eléctrica
+tensión = corriente x resistencia, o voltios = amperios x ohmios, o V = A x Ω.
 
-Parámetro: Voltaje (V), Corriente (I), Resistencia (R), Tiempo (t).
-Variable: 
-�
-=
-�
-�
-P=IV, 
-�
-=
-�
-�
-E=Pt
 Energía Luminosa:
+también llamada lumínica, es la que generan y transportan las ondas de luz. En fotometría (ciencia que estudia la luz), la luminosa es la energía de luz visible, siendo la única energía que el ser humano puede puede ver.
+t (Qv = F . t)
 
-Parámetro: Longitud de onda, Intensidad de la luz.
-Variable: Depende del contexto, como la iluminación en una superficie.
 Energía Sonora:
+La energía del sonido es la forma de energía que se genera cuando un objeto vibra. Una vez producida a través de las vibraciones, la energía sonora se transfiere en ondas a través de medios como el aire y el agua antes de que llegue a sus oídos.
+P = E / At ; donde P es la potencia acústica en vatios (W), E es la energía acústica en julios (J), y At es un intervalo de tiempo (s). Esta variable solo depende de las características de la fuente.
 
-Parámetro: Amplitud, Frecuencia.
-Variable: Intensidad del sonido, energía transportada por ondas sonoras.
 Energía Hidroeléctrica:
-
-Parámetro: Altura de la caída de agua, Flujo de agua.
-Variable: 
-�
-ℎ
-�
-�
-�
-�
-=
-�
-⋅
-�
-⋅
-�
-⋅
-ℎ
-E 
-hidro
-​
- =η⋅m⋅g⋅h, donde 
-�
-η es la eficiencia del sistema.
+es aquella que se genera al transformar la fuerza del agua en energía eléctrica. Para aprovechar dicha fuerza, se construyen grandes infraestructuras hidráulicas capaces de extraer el máximo potencial de este recurso renovable, libre de emisiones y autóctono.
+Eh = m·g·Z
