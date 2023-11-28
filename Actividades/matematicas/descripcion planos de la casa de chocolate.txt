@@ -1,0 +1,6 @@
+Altura techo
+diagonal techo
+altura chimenea 
+ancho de la base de la chimenea
+ancho de la superficie de la chimenea
+largo

@@ -41,3 +41,28 @@ P = E / At ; donde P es la potencia acústica en vatios (W), E es la energía ac
 Energía Hidroeléctrica:
 es aquella que se genera al transformar la fuerza del agua en energía eléctrica. Para aprovechar dicha fuerza, se construyen grandes infraestructuras hidráulicas capaces de extraer el máximo potencial de este recurso renovable, libre de emisiones y autóctono.
 Eh = m·g·Z
+
+La transformación de energía es un concepto fundamental en la física, y ocurre de varias maneras en la naturaleza y en nuestras tecnologías. Aquí hay algunas formas comunes en las que las energías se transforman de una a otra:
+
+Transformación entre Energía Cinética y Energía Potencial Gravitatoria:
+
+Cuando levantas un objeto en el aire, le estás dando energía potencial gravitatoria. Cuando lo sueltas, esta energía potencial se convierte en energía cinética a medida que el objeto cae.
+Transformación entre Energía Cinética y Energía Potencial Elástica:
+
+Si comprimes un resorte, le estás dando energía potencial elástica. Cuando sueltas el resorte, esta energía se convierte en energía cinética a medida que el resorte se expande.
+Transformación entre Energía Cinética y Energía Térmica:
+
+Cuando frotas tus manos, estás aplicando fuerza y generando calor. Aquí, parte de la energía cinética de tus manos se convierte en energía térmica debido a la fricción.
+Transformación entre Energía Térmica y Energía Mecánica:
+
+En un motor térmico, como un motor de automóvil, la energía térmica generada por la combustión de combustible se convierte en energía mecánica que impulsa el vehículo.
+Transformación entre Energía Cinética y Energía Eléctrica:
+
+En una central hidroeléctrica, la energía cinética del agua que cae se convierte en energía mecánica que gira las turbinas. Esta energía mecánica se transforma luego en energía eléctrica mediante generadores.
+Transformación entre Energía Nuclear y Energía Térmica:
+
+En una central nuclear, la energía liberada durante reacciones nucleares se transforma en calor. Este calor se utiliza para generar vapor, que a su vez impulsa las turbinas conectadas a generadores eléctricos.
+Transformación entre Energía Luminosa y Energía Química:
+
+Durante la fotosíntesis en las plantas, la energía luminosa se transforma en energía química almacenada en compuestos como la glucosa.
+Estos son solo algunos ejemplos. En la mayoría de las transformaciones, siempre hay ciertas pérdidas de energía, generalmente en forma de energía térmica debido a la fricción o la resistencia. Este hecho está relacionado con la Segunda Ley de la Termodinámica, que establece que en cualquier proceso, la cantidad total de energía en un sistema aislado tiende a disminuir con el tiempo.
