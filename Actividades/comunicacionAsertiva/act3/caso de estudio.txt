@@ -1,0 +1,21 @@
+1. ¿Cuál es el problema principal en esta situación laboral?
+El problema principal en esta situación laboral es la falta de comunicación efectiva entre el equipo de desarrollo de software y el equipo de diseño gráfico. Las diferencias en los enfoques y prioridades de ambos equipos han llevado a malentendidos en las especificaciones del proyecto, resultando en retrabajos, retrasos y frustración.
+
+2. ¿Qué enfoque tiene el equipo de desarrollo de software y cuál es el enfoque del equipo de diseño gráfico?
+El equipo de desarrollo de software está enfocado en la funcionalidad y la programación, mientras que el equipo de diseño gráfico se centra en la interfaz de usuario y la experiencia de usuario. Ambos enfoques son cruciales para el éxito del proyecto, pero la falta de alineación y comprensión mutua ha llevado a problemas de integración.
+
+3. ¿Cómo afecta la falta de comunicación en este caso al proyecto y a los equipos?
+La falta de comunicación ha generado malentendidos en las especificaciones del proyecto, lo que ha llevado a retrabajos y retrasos. Esto no solo afecta la eficiencia del trabajo, sino que también aumenta la presión sobre ambos equipos. Además, la frustración generada podría afectar la moral y la colaboración entre los equipos.
+
+4. ¿Qué podrían haber hecho los equipos para mejorar la comunicación en este proyecto?
+
+Establecer reuniones regulares de sincronización entre los equipos para compartir actualizaciones y discutir cualquier cambio en los requisitos.
+Utilizar herramientas de gestión de proyectos y colaboración para asegurar que todos tengan acceso a la información más reciente.
+Designar a un representante de cada equipo para actuar como enlace de comunicación y resolver posibles malentendidos de manera proactiva.
+5. ¿Qué beneficios aporta la comunicación asertiva en situaciones como esta?
+La comunicación asertiva promovería un intercambio claro y directo de información entre los equipos. Los beneficios incluirían:
+
+Mejor comprensión mutua de las expectativas y requisitos.
+Reducción de malentendidos y retrabajos.
+Fomento de un ambiente de trabajo colaborativo y positivo.
+Mayor eficiencia en la resolución de problemas y toma de decisiones.

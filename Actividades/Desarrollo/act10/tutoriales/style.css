@@ -1,4 +1,12 @@
 @charset "utf-8";
+body {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
+
+
 .tarjeta{
   display:flex;
   flex-direction:column;
@@ -30,3 +38,12 @@ background: #6699ff;
   color: white;
 }
 
+@media (max-width: 50em) {
+  body {
+    display: grid;
+    columns: 1;;
+    gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+
+  }
+}
