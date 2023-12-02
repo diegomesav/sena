@@ -1,15 +1,16 @@
 const urls = [
-    "https://www.youtube.com/embed/G2FCfQj-9ig?si=aWTfnoecHs2qg3eU",
-    "https://www.youtube.com/embed/U709qY6S9rA?si=Jvm5P19wZgDraPKf"
+    "https://www.youtube.com/embed/U709qY6S9rA?si=Jvm5P19wZgDraPKf",
+    "https://www.youtube.com/embed/coK4jM5wvko?si=KCgBJxnLyY2c1ZpH",
+    "https://www.youtube.com/embed/F0ILFYl8YgI?si=BII-jnApli_NfiNO",
 ]
 
 const courses = [
-    "Python", "Java"
+    "Java"
 ]
 
-const body = document.querySelector("body");
 
-const divContainer = document.createElement("div");
+
+const divContainer = document.querySelector("div");
 divContainer.className = "container"
 
 const section = document.createElement("section");
@@ -24,13 +25,13 @@ for (const url of urls){
     const divTitle = document.createElement("div");
     divTitle.className = "titulo"
     divTitle.textContent = "Curso de " + courses[indexCourse]
-    indexCourse++
+    indexCourse
 
     const divBody = document.createElement("div");
     divBody. className = "cuerpo"
 
     const iframe = document.createElement("iframe");
-    iframe.width = "480"
+    iframe.width = "460"
     iframe.height = "315"
     iframe.src = url
     iframe.title = "YouTube video player"
@@ -50,4 +51,4 @@ for (const url of urls){
 }
 
 divContainer.appendChild(section);
-body.appendChild(divContainer);
+
