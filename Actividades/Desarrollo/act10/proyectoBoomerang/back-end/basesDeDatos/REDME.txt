@@ -1,0 +1,4 @@
+Aqui estará toda la estructra de la bese de datos:
+Ususarios
+Productos
+Ventas

@@ -1,0 +1,41 @@
+Informe Técnico: Estructura de Proyecto React con Back-End en Node.js
+
+1. Introducción:
+El presente informe describe la arquitectura y jerarquía de un proyecto desarrollado utilizando React para el front-end y Node.js para el back-end. El proyecto tiene como objetivo la implementación de cinco vistas distintas para satisfacer los requisitos específicos del sistema.
+
+2. Estructura del Proyecto:
+
+2.1 Estructura del Front-End (React):
+El front-end del proyecto se ha organizado siguiendo las mejores prácticas de desarrollo en React. La jerarquía de carpetas es la siguiente:
+
+    src: Carpeta principal del código fuente.
+        components: Contiene todos los componentes de React reutilizables.
+        views: Cada vista del proyecto está organizada en su propia carpeta.
+            View1: Componentes y estilos específicos de la primera vista.
+            View2: Componentes y estilos específicos de la segunda vista.
+            ... (y así sucesivamente para cada vista)
+        services: Contiene lógica de servicios para manejar la comunicación con el back-end.
+        styles: Estilos globales y variables.
+        App.js: Archivo principal que contiene la estructura de enrutamiento y el diseño general.
+
+2.2 Estructura del Back-End (Node.js):
+El back-end se ha desarrollado utilizando Node.js y se ha organizado de la siguiente manera:
+
+    src: Carpeta principal del código fuente.
+        routes: Define las rutas de la API.
+        controllers: Lógica de controladores que manejan las solicitudes.
+        models: Modelos de datos que interactúan con la base de datos.
+        middlewares: Funciones de middleware para procesar las solicitudes.
+        config: Configuraciones del proyecto.
+        app.js: Archivo principal que configura y ejecuta el servidor.
+
+3. Vistas del Proyecto:
+El proyecto consta de cinco vistas principales, cada una de las cuales tiene su propia carpeta en el directorio views. Cada carpeta de vista contiene los componentes y estilos específicos necesarios para esa sección del proyecto.
+
+4. Comunicación Front-End y Back-End:
+La comunicación entre el front-end y el back-end se logra a través de solicitudes HTTP. El front-end utiliza servicios específicos en la carpeta services para interactuar con las rutas definidas en el back-end.
+
+5. Conclusiones:
+La estructura organizada del proyecto facilita el desarrollo, mantenimiento y escalabilidad. La separación clara entre el front-end y el back-end permite un desarrollo paralelo y modularidad, lo que resulta en un sistema más robusto y fácil de gestionar.
+
+Este informe técnico proporciona una visión general de la arquitectura y jerarquía del proyecto, estableciendo una base sólida para su desarrollo continuo y la implementación de nuevas características.
