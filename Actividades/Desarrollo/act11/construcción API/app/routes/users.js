@@ -11,4 +11,12 @@ router.get(
     controller.getData
 );
 
+router.post(`/${path}`,
+/*(req,res) =>{
+    console.log('body recibido',req.body);
+    res.send()
+}*/
+    controller.insertData
+)
+
 module.exports = router;

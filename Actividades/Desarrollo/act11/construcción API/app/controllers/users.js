@@ -11,7 +11,13 @@ exports.getData = (req,res) => {
 
 exports.insertData = (req, res) => {
     const data = req.body
-    model.create(data, (err, docs) => {
-        res.send({data: docs})
+    model.create(data)
+    .then(() => {
+      res.send(
+        console.log('resultado')
+      )
+    })
+    .catch((err) => {
+      res.send()
     })
 }
