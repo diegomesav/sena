@@ -7,13 +7,14 @@ const UserScheme = new momgoose.Schema(
         },
         avatar:{
             type:String,
-            default: 'http://img.com'
+            default: 'img.com'
         },
         email:{
             type:String,
             unique: true,
-            require: true
+            required: true
         }
+
     }
 )
 

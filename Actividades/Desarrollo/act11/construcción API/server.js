@@ -18,6 +18,7 @@ const itemRouters = require('./app/routes/items')
 
 app.use(userRouters);
 app.use(itemRouters);
+//app.use(express.json())
 //para formato json
 app.use(
     bodyParser.json({

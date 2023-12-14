@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href= "assets/css/style.css"/>
+    </head>
+
+<body>
+    
+    <section>
+        <h1>Gestión de Usuarios</h1>
+
+        <a onclick="agregar()" href="#" class="myButton">Agregar Usuarios</a>
+
+        <table id="usuarios">
+            <thead>
+                <tr>
+                <th>id</th>
+                <th>usuario</th>
+                <th>password</th>
+                <th>Acciones</th>
+                </tr>
+            </thead>
+            <tbody> </tbody>
+        </table>
+
+        <!-- Modal -->
+        <div id="modal" class="modale" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-header">
+                    <h2>Datos del Usuario</h2>
+                    <a onclick="cerrarModal()" href="#" class="btn-close closemodale" aria-hidden="true">&times;</a>
+                </div>
+
+                <div class="modal-body">
+                    <input id="txtId" type="hidden" placeholder="ID" size="20" /><br />
+                    <input id="txtUsuario" type="text" placeholder="Usuario" size="20" /><br />
+                    <input id="txtPassword" type="password" placeholder="Password" size="20" /><br />
+                </div>
+                <div class="modal-footer">
+                    <a onclick="guardarUsuario()" href="#" class="btn">Guardar</a>
+                </div>
+            </div>
+        </div>
+        <!-- /Modal -->
+        
+    </section>
+
+</body>
+
+</html>
+
+<script src="assets/js/gato.js"></script>
+<script src="assets/js/modal.js"></script>
