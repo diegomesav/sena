@@ -1,0 +1,22 @@
+¡Saludos!
+
+Permítanme compartir con ustedes una visión algo detallada de quién soy y por qué estoy entusiasmado al hacer parte del programa de Análisis y Desarrollo de Software.
+
+Soy un individuo que encuentra inspiración en cada línea de código y disfruta del desafío mental que implica el mundo del desarrollo de software. Mis pasiones van más allá de las líneas de código, extendiéndose al ajedrez y la natación, dos actividades que han tenido un impacto profundo en mi vida y han contribuido a mi crecimiento personal.
+
+Desde temprana edad, el ajedrez ha sido mi compañero constante. Más que un juego, lo veo como un ejercicio intelectual que ha mejorado mi capacidad de análisis y mi pensamiento lógico. Cada partida contiene una estrategia planeada, donde la anticipación y el razonamiento táctico son fundamentales para el éxito. Estos principios no solo se aplican al tablero de ajedrez; los he llevado conmigo a cada desafío que la vida ha presentado.
+
+Asimismo, la natación ha sido una fuente de disciplina y resistencia. El agua es un excelnte espacio para reflexionar y liberar la mente de las tensiones diarias. La natación no solo ha fortalecido mi cuerpo, sino que también ha fomentado la perseverancia y la dedicación, habilidades cruciales en cualquier disciplina, incluido el mundo del desarrollo de software.
+
+Mi enfoque actual se centra en la ingeniería en software, un camino que he abrazado con entusiasmo. Las actividades programadas se han convertido en mi terreno de juego, donde aplico los mismos principios estratégicos que empleo en el ajedrez. Mi deseo de hacer parte de este mundo me ha llevado a la inmersión en varios lenguajes de programación, diseño de algoritmos y metodologías ágiles, todos los cuales he abordado con una mentalidad analítica y lógica.
+
+Mi experiencia práctica ha fortalecido estas habilidades. He realizado algunos proyectos de desarrollo de software que dentro de los que destaco una aplicación movil y un sistema de gestión de datos. Estos proyectos no solo han mejorado mis habilidades técnicas, sino que también han afianzado mi comprensión de la importancia del trabajo en equipo y la comunicación efectiva en un entorno de desarrollo colaborativo.
+
+Al estar inscrito en el programa de Análisis y Desarrollo de Software, veo una sinergia evidente entre mis habilidades y los objetivos del programa. Mi capacidad de análisis y pensamiento lógico se alinea perfectamente con los rigurosos requisitos de diseño y desarrollo de software. No solo busco adquirir conocimientos, sino contribuir activamente al ambiente de aprendizaje compartido, aportando perspectivas y experiencias que enriquezcan la experiencia de todos los participantes.
+
+El programa representa para mí más que una oportunidad académica; es una puerta de entrada a un futuro donde mi pasión por la ingeniería de software puede traducirse en soluciones prácticas y significativas. Mi meta última es completar con éxito mi ingeniería en software y, más allá de eso, trabajar como desarrollador, contribuyendo a proyectos que no solo desafíen mi intelecto, sino que también impacten positivamente el mundo.
+
+La posibilidad de trabajar de forma remota es una visión a largo plazo que alimento con mi deseo de explorar nuevas fronteras y contribuir desde cualquier lugar del mundo. Creo firmemente que la tecnología, cuando se aplica con ingenio y ética, puede trascender fronteras geográficas y culturales.
+
+En conclusión, soy Diego, un apasionado del mundo de la programación, con raíces profundas en el ajedrez y la natación. Mi viaje académico y experiencias prácticas han moldeado un individuo con habilidades analíticas bien desarrolladas y un pensamiento lógico sólido. Estoy ansioso de continuar con el desafío intelectual que ofrece el programa y contribuir a un entorno de aprendizaje dinámico.
+

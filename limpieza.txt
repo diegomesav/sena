@@ -127,3 +127,6 @@ optimizacion del internet: https://www.youtube.com/watch?v=IRTQ1Z8Xvn4
 fechas de inicio y finalización de la tecnología en anális y desarrollo de software: 
 Fecha de Inicio: 25 de Marzo del 2023 - Fecha Fin: 11 de Noviembre del 2025
 >>>>>>> 5e4e858a67787501289f974f649d8eb31d61791a
+
+
+bloqueo de paginas desde el router: https://www.youtube.com/watch?v=kKpoUIXe_Y8
