@@ -1,0 +1,46 @@
+Procesos energéticos
+
+DIEGO ALEJANDRO MESA VASQUEZ
+
+1. Conservación de la Energía:
+
+Comencemos por la conservación de la energía, uno de los pilares de la física. Es un principio que dicta que la energía no puede ser creada ni destruida, solo transformada.
+
+2. Termodinámica:
+
+La termodinámica nos habla del movimiento del calor y la energía. Muchas innovaciones en la refrigeración, calefacción y generación de energía están intrínsecamente vinculadas a estos principios.
+
+3. Electromagnetismo:
+
+El electromagnetismo es la fuerza detrás de la electricidad y el magnetismo. La revolución digital se basa en este principio.
+
+4. Oscilaciones y Ondas:
+
+Las oscilaciones y ondas son fundamentales en las comunicaciones modernas. Desde la transmisión de datos hasta la señalización en tecnologías médicas, estas ideas son esenciales.
+
+5. Interpretación de Planos, Datos y Gráficas:
+
+La habilidad para interpretar planos y datos es esencial en el diseño y análisis de tecnologías avanzadas.
+
+Relación de 10 Avances Tecnológicos:
+
+Paneles Solares Fotovoltaicos: Basados en principios de conversión de energía radiante en eléctrica.
+
+Aerogeneradores: Generación de energía eólica mediante el aprovechamiento de la fuerza del viento.
+
+Baterías de Estado Sólido: Innovación en almacenamiento de energía.
+
+Motores Eléctricos de Alta Eficiencia: Aplicación de electromagnetismo en vehículos eléctricos.
+
+Fibras Ópticas: Uso de ondas para transmitir información a velocidades impresionantes.
+
+Tecnologías de Refrigeración Magnética: Eficiencia energética en sistemas de refrigeración.
+
+Resonancia Magnética: Aplicación de oscilaciones y ondas para imágenes médicas.
+
+Redes de Comunicación 5G: Basadas en principios electromagnéticos para una conectividad ultrarrápida.
+
+Sistemas de Energía Geotérmica: Utilización de la energía térmica almacenada en la Tierra.
+
+Robótica Biomimética: Inspirada en la eficiencia energética de la naturaleza.
+
