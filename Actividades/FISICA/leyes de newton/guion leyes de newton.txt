@@ -1,6 +1,12 @@
+Buenas noches!
+Soy Diego Alejandro Mesa Vasquez
+Hago parter de la ficha 2721552 del programa
+Tecnnoligo en analisis y desarrollo de software
+Hoy las voy a hablar de dos leyes de Newton
+
  Accion  reaccion:
 
-Cuando lanzamos la pequeña pelota, se establece un fascinante juego de fuerzas que sigue la tercera ley de Newton, conocida como la ley de la acción y reacción. En el momento del lanzamiento, la pequeña pelota ejerce una fuerza sobre la pelota grande, propulsándola en una dirección determinada.
+Cuando lanzamos la pequeña pelota, se establece un juego de fuerzas que sigue la tercera ley de Newton, conocida como la ley de la acción y reacción. En el momento del lanzamiento, la pequeña pelota ejerce una fuerza sobre la pelota grande, propulsándola en una dirección determinada.
 
 Ahora, aquí es donde la magia de la física entra en juego. En respuesta a la acción de la pelota pequeña, la pelota grande no solo recibe esa fuerza, sino que también genera una fuerza igual pero en sentido opuesto, como un acto instantáneo de respuesta. Es como si ambas pelotas se comunicaran sin palabras, cooperando en perfecta armonía.
 
