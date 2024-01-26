@@ -15,9 +15,12 @@ app.get('/',(req,res) => {
 
 const userRouters = require('./app/routes/users')
 const itemRouters = require('./app/routes/items')
+const userLoginRouters = require('./app/routes/usersLogin')
+
 
 app.use(userRouters);
 app.use(itemRouters);
+app.use(userLoginRouters);
 //app.use(express.json())
 //para formato json
 app.use(
