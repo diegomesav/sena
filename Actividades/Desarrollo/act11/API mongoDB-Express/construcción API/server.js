@@ -14,12 +14,12 @@ app.get('/',(req,res) => {
 */
 
 const userRouters = require('./app/routes/users')
-const itemRouters = require('./app/routes/items')
+const productsRouters = require('./app/routes/products')
 const userLoginRouters = require('./app/routes/usersLogin')
 
 
 app.use(userRouters);
-app.use(itemRouters);
+app.use(productsRouters);
 app.use(userLoginRouters);
 //app.use(express.json())
 //para formato json

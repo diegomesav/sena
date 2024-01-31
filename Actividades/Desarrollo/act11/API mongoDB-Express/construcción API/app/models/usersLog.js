@@ -2,21 +2,17 @@ const momgoose = require('mongoose');
 
 const UserScheme = new momgoose.Schema(
     {
-        firstName:{
+        name:{
             type: String
-        },
-        lastName:{
-            type:String
         },
         email:{
             type:String,
             unique: true,
             required: true
         },
-        lastName:{
+        password:{
             type:String
         }
-
     }
 )
 

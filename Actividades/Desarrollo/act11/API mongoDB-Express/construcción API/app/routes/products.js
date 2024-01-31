@@ -1,12 +1,12 @@
 const express = require('express');
 
-const controller = require('../controllers/users');
+const controller = require('../controllers/products');
 //ChatGPT
 const bodyParser = require('body-parser');
 
 const router = express.Router();
 
-const path = 'users';
+const path = 'products';
 //ChatGPT
 router.use(bodyParser.json())
 
@@ -29,6 +29,6 @@ router.put(`/${path}/:id`,
 
 router.delete(`/${path}/:id`,
     controller.deleteUser
-)
+);
 
 module.exports = router;
