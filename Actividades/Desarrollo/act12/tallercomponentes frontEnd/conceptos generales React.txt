@@ -1,0 +1,30 @@
+React:
+
+Una biblioteca de JavaScript para construir interfaces de usuario, desarrollada por Facebook. React utiliza un enfoque basado en componentes para crear aplicaciones web eficientes y reactivas.
+Componente:
+
+Una parte reutilizable e independiente de la interfaz de usuario que encapsula la lógica y la presentación. Los componentes en React pueden contener estado, props y métodos.
+JSX:
+
+Una extensión de JavaScript utilizada en React para escribir elementos de interfaz de usuario de una manera que se asemeje al HTML. JSX se compila a llamadas de funciones de JavaScript.
+Virtual DOM:
+
+Una representación en memoria de la estructura de la interfaz de usuario. React utiliza el Virtual DOM para optimizar las actualizaciones y mejorar el rendimiento.
+Estado (State):
+
+Un objeto que representa la información relevante para un componente. Los cambios en el estado pueden provocar la actualización de la interfaz de usuario.
+Props:
+
+Abreviatura de "propiedades", son datos que se pasan de un componente padre a un componente hijo. Los props permiten la comunicación entre componentes.
+Ciclo de Vida (Lifecycle):
+
+El conjunto de métodos que se ejecutan en diferentes etapas del ciclo de vida de un componente React, como el montaje, la actualización y la eliminación.
+Componente Funcional:
+
+Un componente React que es una función de JavaScript. Los componentes funcionales son más simples y carecen de estado propio hasta la introducción de los "hooks" en versiones más recientes de React.
+Componente de Clase:
+
+Un componente React creado mediante una clase de JavaScript. Los componentes de clase tienen un estado y pueden utilizar el ciclo de vida.
+Hooks:
+
+Funciones especiales en React que permiten a los componentes funcionales tener estado y acceder al ciclo de vida. Algunos hooks comunes son useState y useEffect.
