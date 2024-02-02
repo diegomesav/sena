@@ -1,6 +1,4 @@
-const model = require('../models/users')
-
-const bcrypt = require('bcrypt');
+const model = require('../models/products')
 
 exports.getData = (req,res) => {
 
@@ -20,7 +18,7 @@ exports.insertData = async (req, res) => {
     const createdItem = await model.create(newItem);
     res.status(201).json(createdItem);
   } catch (error) {
-    res.status(500).json({ error: 'Error al crear el usuario' });
+    res.status(500).json({ error: 'Error al crear el producto' });
     console.log(error)
   }
 };
@@ -41,34 +39,28 @@ exports.getSomeData = async (req, res) => {
     if (items) {
       res.json(items);*/
     } else {
-      console.log(res.status(404).json({ error: 'Usuario no encontrado' }));
+      console.log(res.status(404).json({ error: 'producto no encontrado' }));
 
     }
   } catch (error) {
     console.log('Error en catch:',error);
-    res.status(500).json({ error: 'Error al obtener el usuario' });
+    res.status(500).json({ error: 'Error al obtener el producto' });
   }
 };
 
 exports.updatedItem = async (req, res) => {
   const id = req.params.id;
   const updatedItem = req.body;
-  const { firstName, lastName, email, password } = req.body;
-  /*****************************************************************actualizando contrasena encriptada */
-  const hashedPassword = await bcrypt.hash(password, 10);
-  updatedItem.password = hashedPassword;
-  /*****************************************************************actualizando contrasena encriptada */
-
   try {
     const result = await model.findByIdAndUpdate(id, updatedItem, { new: true });
     if (result) {
       res.json(result);
     } else {
-      res.status(404).json({ error: 'Usuario no encontrado' });
+      res.status(404).json({ error: 'producto no encontrado' });
     }
   } catch (error) {
     console.log(error)
-    res.status(500).json({ error: 'Error al actualizar el usuario' });
+    res.status(500).json({ error: 'Error al actualizar el producto' });
   }
 };
 
@@ -79,11 +71,11 @@ exports.deleteUser = async (req, res) => {
     if (result) {
       res.sendStatus(204);
     } else {
-      console.log(res.status(404).json({ error: 'Usuario no encontrado' }));
+      console.log(res.status(404).json({ error: 'producto no encontrado' }));
     }
   } catch (error) {
     console.log(error)
-    res.status(500).json({ error: 'Error al eliminar el usuario' });
+    res.status(500).json({ error: 'Error al eliminar el producto' });
   }
 };
 

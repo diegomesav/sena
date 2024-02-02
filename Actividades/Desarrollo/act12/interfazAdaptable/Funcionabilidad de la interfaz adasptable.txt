@@ -1,0 +1,5 @@
+En el ámbito del desarrollo de software moderno, la adaptación continua a los diversos tipos de dispositivos tecnológicos se ha vuelto esencial para ofrecer experiencias de de usuario óptimas. En esta ocasión, nos vamos a enfocar en las interfaces responsivas de nuestro proyecto formativo.
+
+Aquí notaremos algunos principios técnicos fundamentales detrás de las interfaces responsivas, desde la fluidez en la adaptación a diferentes resoluciones hasta la optimización del rendimiento en términos de carga y velocidad. Acá nos centraremos en un diseño sencillo pero moderno para poder atender las necesidades y requerimientos del proyecto que actualmente se está desarrollando, y de esta forma lograr una experiencia de usuario eficiente y coherente.
+
+En el siguinte enlace podemos ver la forma en que se adapta mi tieenda online a los tamaños de las diferentes pantallas.

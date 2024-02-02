@@ -2,11 +2,8 @@ const momgoose = require('mongoose');
 
 const UserScheme = new momgoose.Schema(
     {
-        firstName:{
+        name:{
             type: String
-        },
-        lastName:{
-            type:String
         },
         email:{
             type:String,
@@ -14,11 +11,9 @@ const UserScheme = new momgoose.Schema(
             required: true
         },
         password:{
-            type:String,
-            required: true
+            type:String
         }
-
     }
 )
 
-module.exports = momgoose.model('users',UserScheme)
+module.exports = momgoose.model('usersLogin',UserScheme)
