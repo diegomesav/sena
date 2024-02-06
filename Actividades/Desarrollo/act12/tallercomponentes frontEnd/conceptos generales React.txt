@@ -28,3 +28,27 @@ Un componente React creado mediante una clase de JavaScript. Los componentes de 
 Hooks:
 
 Funciones especiales en React que permiten a los componentes funcionales tener estado y acceder al ciclo de vida. Algunos hooks comunes son useState y useEffect.
+
+Introducción:
+
+En el contexto del desarrollo de aplicaciones web modernas, React ha emergido como una biblioteca líder para la construcción de interfaces de usuario interactivas y eficientes. En este cuestionario, veremos algunos conceptos clave relacionados con React, incluyendo la diferencia entre React y JSX, el uso de clases en React, y los principales eventos que React maneja para la interacción del usuario.
+Cuestionario:
+
+¡Por supuesto! Aquí tienes respuestas técnicas a tus preguntas:
+
+    Diferencia entre React y JSX:
+        React es una biblioteca de JavaScript desarrollada por Facebook para construir interfaces de usuario. JSX, por otro lado, es una extensión de JavaScript utilizada en React para escribir de manera más declarativa y visual componentes de interfaz de usuario. JSX permite la descripción de la interfaz de usuario en una sintaxis similar a HTML, pero se compila a llamadas de funciones de JavaScript para ser interpretado por el navegador.
+
+    ¿Qué son clases en React?
+        En React, las clases se refieren a componentes de clase. Los componentes de clase son una forma de definir un componente utilizando la sintaxis de clase de JavaScript. Estas clases extienden la clase React.Component y pueden contener un estado (state), propiedades (props), y métodos del ciclo de vida, como render(), componentDidMount(), entre otros. Sin embargo, con la introducción de Hooks en versiones más recientes de React, el uso de clases ha disminuido en favor de componentes funcionales.
+
+    Principales eventos de React:
+        En React, los eventos son acciones que ocurren en la interfaz de usuario, como clics de botones, cambios en formularios, entre otros. Algunos de los principales eventos de React son:
+            onClick: Se dispara cuando un elemento es clicado.
+            onChange: Se dispara cuando el valor de un elemento de formulario cambia.
+            onSubmit: Se dispara cuando se envía un formulario.
+            onMouseOver y onMouseOut: Se disparan cuando el puntero del ratón se coloca sobre o se retira de un elemento, respectivamente.
+            onKeyDown, onKeyPress, y onKeyUp: Se disparan cuando se presionan, se mantienen presionadas o se sueltan teclas del teclado.
+
+Estos son solo algunos ejemplos de eventos en React, y cada uno puede asociarse con funciones o métodos específicos que se ejecutan en respuesta a esos eventos.
+
