@@ -1,0 +1,1 @@
+Verificación de procedimientos para la definición de componentes front-end de la aplicación 
