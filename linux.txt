@@ -1,0 +1,16 @@
+[{
+	mi host: hostpremium.ddns.net,
+	correo: diegomesa0130@gmail.com,
+}
+{	
+	nombre de dominio(instalacion):diego.servidordiego.virtualbox.org
+	nombre de la maquina: diegoServer
+}
+
+"jdbc:mysql//localhost:3306/java", "root", ""
+"jdbc:mysql://localhost:3306/java", "root", "");
+
+{
+lucusHost:{
+		Usuario:B83762910
+		contrasena:M 
