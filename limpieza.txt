@@ -130,6 +130,13 @@ Fecha de Inicio: 25 de Marzo del 2023 - Fecha Fin: 11 de Noviembre del 2025
 
 
 bloqueo de paginas desde el router: https://www.youtube.com/watch?v=kKpoUIXe_Y8
+<<<<<<< HEAD
 
 Posible enlace a office 2021: y contraseña: www.intercambiosvirtuales.org
 https://www.mediafire.com/file/0gnhifenj7kowor/Microsoft.Office.2021.LTSC.v2108.Build.14332.20604.Multilingual.x64.Pre-Activated.rar/file
+=======
+-------------------------------------------------------------------------------------------------------------
+link descarga portriture: https://softprober.com/graphic-design/imagenomic-portraiture-2022-free-download/
+contraseña: softprober
+-------------------------------------------------------------------------------------------------------------
+>>>>>>> 0c020a33873f7e53dff8a54e0a1210c6b561ad84
