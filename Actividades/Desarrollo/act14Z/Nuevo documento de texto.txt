@@ -1,0 +1,6 @@
+Definición y generalidades de redes de datos
+Modelos de referencia
+Protocolos de comunicación
+Puertos de comunicación
+Medios de transmisión
+Recursos compartidos
