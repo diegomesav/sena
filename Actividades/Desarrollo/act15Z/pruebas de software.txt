@@ -1,0 +1,30 @@
+Preguntas de Reflexión sobre Pruebas de Software
+¿Qué tipos de pruebas de software existen? Explique sus características y beneficios.
+
+Existen varios tipos de pruebas de software, entre los más comunes están:
+
+Pruebas Unitarias: Verifican que cada componente individual del software funcione correctamente. Son rápidas de ejecutar y ayudan a detectar errores temprano en el desarrollo.
+
+Pruebas de Integración: Aseguran que los diferentes módulos o servicios de una aplicación funcionen bien juntos. Son útiles para detectar problemas en la interacción entre componentes.
+
+Pruebas Funcionales: Evalúan si el software cumple con los requisitos funcionales. Se centran en lo que el sistema debe hacer, más que en cómo lo hace.
+
+Pruebas de Rendimiento: Miden cómo se comporta el software bajo ciertas cargas de trabajo. Ayudan a identificar cuellos de botella y problemas de escalabilidad.
+
+Pruebas de Usabilidad: Evalúan la facilidad con la que los usuarios pueden interactuar con el sistema. Son esenciales para asegurar una buena experiencia de usuario.
+
+Según la consulta que realizó, ¿qué tipos de pruebas se adaptan mejor al proyecto de software que está desarrollando?
+
+Para mi proyecto, que está enfocado en una aplicación web, las pruebas unitarias y pruebas de integración son esenciales. Las pruebas unitarias nos aseguran que cada función individual funcione bien, mientras que las pruebas de integración garantizan que todos los componentes de la aplicación trabajen juntos sin problemas. Además, considero importantes las pruebas funcionales para verificar que la aplicación cumpla con los requisitos esperados por los usuarios.
+
+Investigue e instale unas herramientas de pruebas de software en su computador, “una de su gusto”.
+
+He decidido usar Jest como herramienta de pruebas. Jest es un framework de pruebas muy popular para aplicaciones JavaScript, especialmente adecuado para proyectos que utilizan React, pero también es muy versátil para otros tipos de aplicaciones.
+
+Con la herramienta instalada, realice unas pruebas básicas de su solución de software, tome capturas de pantalla del proceso y anéxelas al trabajo.
+
+He realizado pruebas básicas utilizando Jest para verificar que las funciones clave de mi aplicación se comporten como se espera. Las capturas de pantalla de estas pruebas se incluirán en el documento final.
+
+Elabore un resumen de las pruebas que realizó.
+
+Realicé pruebas unitarias para funciones que manejan los datos de entrada del usuario y generan respuestas. Además, ejecuté pruebas de integración para asegurar que el front-end y el back-end de la aplicación interactúen correctamente. Los resultados mostraron que la mayoría de las funciones funcionan bien, pero se identificaron algunos errores menores en la integración que están siendo corregidos.
